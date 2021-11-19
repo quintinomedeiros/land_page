@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/variables.css">
+    <link rel="stylesheet" href="./assets/css/elements.css">
+    <link rel="stylesheet" href="./assets/css/classes.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Landing Page</title>
+  </head>
+  <body>
+
+    <input type="checkbox" class="close-menu" id="close-menu" aria-label="close-menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="Fechar o menu"></label>
+    <aside class="menu white_bg">
+      <div class="main_content menu_content">
+        <h1>
+          <a href="#home">LOGO</a>
+        </h1>
+        <nav>
+          <ul onclick="getElementById('close-menu').checked = false"><!--Fecha o menu ao clicar em um item-->
+            <li><a href="#top3">Destaques</a></li>
+            <li><a href="#grid-one">Novidades</a></li>
+            <li><a href="#gallery">Galeria</a></li>
+            <li><a href="#grid-two">Trabalhos</a></li>
+            <li><a href="#pricing">Valores</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <div class="menu_spacing"></div>
+
+    <section id="home" class="intro main_bg section_height">
+      <div class="main_content intro_content">
+        <div class="intro_text_content">
+          <h2>January brings us firefox 85</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores id eveniet quisquam dolore optio quod saepe officiis vitae, magni quas assumenda odio aut aspernatur nisi et at rerum sunt exercitationem.</p>
+        </div>
+
+        <div class="intro_img">
+          <img src="./assets/img/javascript.svg" alt="Logo de HTML, CSS e JS sendo seguradas por homens e mulheres">  
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="top3" class="white_bg section_height">
+      <div class="main_content top3-content">
+        <h2>Top 3 jobs</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi cum, illo similique nemo esse necessitatibus doloribus voluptate impedit magnam minima quo iste autem provident temporibus et in repudiandae iusto mollitia!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam est aspernatur, praesentium, impedit ab accusantium sapiente perspiciatis sed eius eum illum animi debitis autem earum tenetur ut nobis libero in?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro nisi eaque, mollitia harum voluptatibus incidunt impedit atque illo earum tempora ipsum voluptates, ullam commodi? Ducimus eaque voluptate eos ipsa rem.</p>
+      </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main_bg section_height">
+      <div class="main_content grid-one-content">
+        <h2 class="grid-main-heading">New Ideas</h2>
+        <p class="grid-description">Uma breve descrição</p>
+        <div class="grid_container">
+          <article>
+            <h3>Teste</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore nostrum tempora animi dolor nesciunt perferendis tenetur dignissimos, doloribus nulla eum, consequatur eos architecto veritatis! Quis, perspiciatis inventore. Aperiam, laborum expedita.</p>
+          </article>
+          <article>
+            <h3>Teste</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore nostrum tempora animi dolor nesciunt perferendis tenetur dignissimos, doloribus nulla eum, consequatur eos architecto veritatis! Quis, perspiciatis inventore. Aperiam, laborum expedita.</p>
+          </article>
+          <article>
+            <h3>Teste</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore nostrum tempora animi dolor nesciunt perferendis tenetur dignissimos, doloribus nulla eum, consequatur eos architecto veritatis! Quis, perspiciatis inventore. Aperiam, laborum expedita.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="grid-one white_bg section_height">
+      <div class="main_content grid-one-content">
+        <h2 class="grid-main-heading">Galeria</h2>
+        <p class="grid-description">Uma breve descrição</p>
+        <div class="grid_container">
+          <div class="gallery-img">
+            <img src="http://source.unsplash.com/random/360x360?r=1" alt="Imagem ilustrativa aleatório do unsplash"><!--o parâmetro "?r=1, serve para gerar imagens aleatórias diferentes"-->
+          </div>
+          <div class="gallery-img">
+            <img src="http://source.unsplash.com/random/360x360?r=2" alt="Imagem ilustrativa aleatório do unsplash">
+          </div>
+          <div class="gallery-img">
+            <img src="http://source.unsplash.com/random/360x360?r=3" alt="Imagem ilustrativa aleatório do unsplash">
+          </div>
+          <div class="gallery-img">
+            <img src="http://source.unsplash.com/random/360x360?r=4" alt="Imagem ilustrativa aleatório do unsplash"><!--o parâmetro "?r=1, serve para gerar imagens aleatórias diferentes"-->
+          </div>
+          <div class="gallery-img">
+            <img src="http://source.unsplash.com/random/360x360?r=5" alt="Imagem ilustrativa aleatório do unsplash">
+          </div>
+          <div class="gallery-img">
+            <img src="http://source.unsplash.com/random/360x360?r=6" alt="Imagem ilustrativa aleatório do unsplash">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="grid-two" class="grid-one main_bg section_height">
+      <div class="main_content grid-one-content">
+        <h2 class="grid-main-heading">O que temos feito</h2>
+        <p class="grid-description">Uma breve descrição</p>
+        <div class="grid_container">
+          <article>
+            <h3>Teste</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore nostrum tempora animi dolor nesciunt perferendis tenetur dignissimos, doloribus nulla eum, consequatur eos architecto veritatis! Quis, perspiciatis inventore. Aperiam, laborum expedita.</p>
+          </article>
+          <article>
+            <h3>Teste</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore nostrum tempora animi dolor nesciunt perferendis tenetur dignissimos, doloribus nulla eum, consequatur eos architecto veritatis! Quis, perspiciatis inventore. Aperiam, laborum expedita.</p>
+          </article>
+          <article>
+            <h3>Teste</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore nostrum tempora animi dolor nesciunt perferendis tenetur dignissimos, doloribus nulla eum, consequatur eos architecto veritatis! Quis, perspiciatis inventore. Aperiam, laborum expedita.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="white_bg section_height">
+      <div class="main_content top3-content">
+        <h2>Nossos valores</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi cum, illo similique nemo esse necessitatibus doloribus voluptate impedit magnam minima quo iste autem provident temporibus et in repudiandae iusto mollitia!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam est aspernatur, praesentium, impedit ab accusantium sapiente perspiciatis sed eius eum illum animi debitis autem earum tenetur ut nobis libero in?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro nisi eaque, mollitia harum voluptatibus incidunt impedit atque illo earum tempora ipsum voluptates, ullam commodi? Ducimus eaque voluptate eos ipsa rem.</p>
+
+        <div class="responsive-table">
+          <table>
+            <caption>Tabela de valores</caption>
+            <thead>
+              <tr>
+                <th>Title 1</th>
+                <th>Title 2</th>
+                <th>Title 3</th>
+                <th>Title 4</th>
+                <th>Title 5</th>
+              </tr>
+            </thead>
+  
+            <tbody>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+              </tr>
+              <tr>
+                <td rowspan="2">Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+              </tr>
+              <tr>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+              </tr>
+            </tbody>
+  
+            <tfoot>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Footer 1</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+
+    </div>
+    </section>
+
+    <section id="contact" class="intro main_bg section_height">
+      <div class="main_content intro_content">
+        <div class="intro_text_content">
+          <h2>January brings us firefox 85</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores id eveniet quisquam dolore optio quod saepe officiis vitae, magni quas assumenda odio aut aspernatur nisi et at rerum sunt exercitationem.</p>
+        </div>
+
+        <div class="intro_img">
+          <img src="./assets/img/javascript.svg" alt="Logo de HTML, CSS e JS sendo seguradas por homens e mulheres">  
+        </div>
+
+        <div class="contact-form">
+          <fieldset class="form-grid">
+            <legend>Entre em contato</legend>
+            <div class="form-group">
+              <label for="first-name">Nome:</label>
+              <input type="text" name="first-name" id="first-name" placeholder="Seu primeiro nome">
+            </div>
+
+            <div class="form-group">
+              <label for="last-name">Sobrenome:</label>
+              <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail:</label>
+              <input type="email" name="email" id="email" placeholder="Seu e-mail para contato">
+            </div>
+
+            <div id="full-width"  class="form-group">
+              <label for="message">Mensagem:</label>
+              <textarea name="message" id="messabe" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+            </div>
+
+            <div id="full-width" class="form-group">
+              <button type="submit">Enviar mensagem</button>
+            </div>
+
+          </fieldset>
+        </div>
+        
+      </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+      <p>Feito com <span class="heart">&hearts;</span> por Quintino Medeiros</p>
+    </footer>
+
+    <a class="back-to-top" href="#home">TOPO</a>
+    
+  </body>
+</html>

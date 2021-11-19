@@ -1,0 +1,29 @@
+.main_bg{
+    background-size: cover;
+    background-position: center center;
+    background-image: url('../img/main_bg.svg');
+    color: var(--white-color);
+}
+
+.white_bg{
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+
+.main_content{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 10rem var(--gap);/*Aplica um espaçamento padrão*/
+}
+
+.section_height{
+    min-height: 100vh;/*Todas as seções têm pelo menos a altura total da página*/
+}
+
+.menu_spacing{
+    height: 48px;/*empurra a primeira section para depois do menu*/
+}
+
+#full-width{
+    min-width: 100%;
+}
